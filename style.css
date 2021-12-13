@@ -80,4 +80,12 @@ main{
     width: 500px;
     margin-bottom: 20px;
 }
-
+@media (max-width:800px) {
+    body{
+        background: black;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+        
+}
