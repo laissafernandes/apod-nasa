@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>APOD</title>
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <h1> Astronomy Picture of the Day</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+                <li><a href="https://github.com/laissafernandes/">Git</a></li>
+            </ul>
+        </nav>
+          
+
+    </header>
+
+    <main>
+        <div class="texto-main">
+            <h2>Escolha uma data e veja uma linda imagem.</h2><br>
+        </div>
+        
+        <div class="botao">
+            <input type="date" name="date" id="data">
+            <button onclick="getApod()">Carregar</button>
+        </div>
+        
+        <div id="info">
+            
+        </div>
+    </main>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
